@@ -5,4 +5,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="what_should_we_do_tonight">What should we do tonight?</string>
+    <string name="let_us_help_you_decide_invite_a_partner_or_friend_to_start_swiping_and_come_to_a_decision_in_no_time">Let us help you decide! Invite a partner or friend to start swiping and come to a decision in no time!</string>
+    <string name="todo">TODO</string>
 </resources>
