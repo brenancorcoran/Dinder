@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dinder">
         <activity
+            android:name=".ui.FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ThirdActivity"
+            android:exported="false" />
+        <activity
             android:name=".SecondActivity"
             android:exported="false" />
         <activity
