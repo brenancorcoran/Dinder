@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.dinder.R;
+
 public class FourthActivity extends AppCompatActivity {
 
     @Override
