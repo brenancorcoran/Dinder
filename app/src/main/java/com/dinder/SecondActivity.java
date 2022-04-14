@@ -15,8 +15,9 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        public void findFoodClick(View view) {
-            startActivity(new Intent(this, ThirdActivity.class));
         }
+
+    public void findFoodClick(View view) {
+        startActivity(new Intent(this, ThirdActivity.class));
     }
 }
