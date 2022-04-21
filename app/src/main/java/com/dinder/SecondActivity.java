@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.dinder.ui.FourthActivity;
 import com.dinder.ui.ThirdActivity;
 
 public class SecondActivity extends AppCompatActivity {
@@ -15,9 +16,16 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        }
+    }
 
     public void findFoodClick(View view) {
         startActivity(new Intent(this, ThirdActivity.class));
+
+        }
+
+    public void findFunClick(View view) {
+        startActivity(new Intent(this, FourthActivity.class));
     }
 }
+
+
