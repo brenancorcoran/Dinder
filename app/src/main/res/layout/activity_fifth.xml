@@ -8,19 +8,20 @@
 
     <Button
         android:id="@+id/foodButton3"
-        android:layout_width="301dp"
-        android:layout_height="69dp"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/custom_button"
         android:onClick="findResClick"
         android:text="Restaurant Info"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.932" />
+        app:layout_constraintVertical_bias="0.871" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -45,5 +46,94 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="312dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/match_box_teal"
+        android:translationY="-20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintVertical_bias="0.928">
+
+        <LinearLayout
+            android:layout_width="312dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="132dp"
+            android:background="@drawable/match_box_yellow"
+            android:translationY="40dp"
+            app:layout_constraintHorizontal_bias="0.51">
+
+            <LinearLayout
+                android:layout_width="312dp"
+                android:layout_height="380dp"
+                android:layout_marginBottom="132dp"
+                android:background="@drawable/match_box_main"
+                android:translationY="40dp"
+                app:layout_constraintHorizontal_bias="0.515">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="You got a match!"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="no food icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_no_food_icon"
+        android:translationY="168dp"
+        app:src="@drawable/ic_no_food_icon"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="128dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="center">
+    </ImageView>
+    <ImageView
+        android:contentDescription="no food icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_no_food_icon"
+        android:translationY="208dp"
+        app:src="@drawable/ic_no_food_icon"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="168dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="center">
+
+    </ImageView>
+    <ImageView
+        android:contentDescription="yes food icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_yes_food_icon"
+        android:translationY="248dp"
+        app:src="@drawable/ic_no_food_icon"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="208dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="center">
+
+    </ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
