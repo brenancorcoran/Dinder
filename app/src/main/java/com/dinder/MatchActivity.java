@@ -7,12 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class FifthActivity extends AppCompatActivity {
+public class MatchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fifth);
+        setContentView(R.layout.activity_match);
     }
 
     public void findResClick(View view) {

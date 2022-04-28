@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void letsEatClick(View view) {
-        startActivity(new Intent(this, SecondActivity.class));
+        startActivity(new Intent(this, ShuffleActivity.class));
     }
 
 

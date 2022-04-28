@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.FourthActivity">
+    tools:context=".ui.GinoActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -41,7 +41,8 @@
             android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:cropToPadding="true"
-            app:srcCompat="@drawable/tacos" />
+            app:srcCompat="@drawable/tacos"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/tacos_title"
