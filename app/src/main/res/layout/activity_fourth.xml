@@ -45,7 +45,7 @@
 
         <TextView
             android:id="@+id/ginos_title"
-            android:fontFamily="@font/roboto_regular"
+            android:fontFamily="@font/roboto_black"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
