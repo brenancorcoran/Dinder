@@ -8,4 +8,13 @@
     <string name="what_should_we_do_tonight">What should we do tonight?</string>
     <string name="let_us_help_you_decide_invite_a_partner_or_friend_to_start_swiping_and_come_to_a_decision_in_no_time">Let us help you decide! Invite a partner or friend to start swiping and come to a decision in no time!</string>
     <string name="todo">TODO</string>
+    <string name="ginos_italian_restaurant">Gino\'s Italian Restaurant</string>
+    <string name="yes_food_icon">yes food icon</string>
+    <string name="lincoln_park_chicago">(Lincoln Park, Chicago)</string>
+    <string name="ginos_desc_text">Dining-in reservations accepted by calling the restaurant, as well as walk-ins welcome. As usual you can call in for takeout or delivery...read more</string>
+    <string name="like">LIKE</string>
+    <string name="dislike">DISLIKE</string>
+    <string name="pacos_tacos">Paco\'s Tacos</string>
+    <string name="north_loop_chicago">(North Loop, Chicago)</string>
+    <string name="tacos_desc">Unique dining experience by combining authentic Mexican food, as well as fusion items inspired from various cultures in the Southern...read more</string>
 </resources>
