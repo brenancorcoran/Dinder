@@ -6,22 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <Button
-        android:id="@+id/foodButton2"
-        android:layout_width="173dp"
-        android:layout_height="78dp"
-        android:background="@drawable/custom_button"
-        android:onClick="findFunClick"
-        android:text="Shuffle Entertainment"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.932"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.517" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -47,60 +31,142 @@
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="320dp"
-        android:layout_height="200dp"
-        android:background="@drawable/custom_button"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.333"
-        app:srcCompat="@drawable/box" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/what_should_we_do_tonight"
-        android:textColor="@android:color/holo_orange_light"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.106" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/let_us_help_you_decide_invite_a_partner_or_friend_to_start_swiping_and_come_to_a_decision_in_no_time"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.183" />
-
     <Button
         android:id="@+id/foodButton"
-        android:layout_width="173dp"
-        android:layout_height="78dp"
+        android:layout_width="284dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="155dp"
         android:background="@drawable/custom_button"
+        android:fontFamily="@font/roboto_regular"
         android:onClick="findFoodClick"
-        android:text="Shuffle Restaurants"
-        android:textColor="@color/white"
+        android:text="Shuffle Restaurants!"
+        android:textAllCaps="false"
+        android:textColor="#40476D"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintTop_toBottomOf="@+id/yellow_box"
+        app:layout_constraintVertical_bias="-0.7" />
+
+    <LinearLayout
+        android:id="@+id/teal_box"
+        android:layout_width="321dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="-5dp"
+        android:background="@drawable/match_box_teal"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:translationX="-150dp"
+        android:translationY="-250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_no_food_icon"
+            android:contentDescription="@string/no_food_icon"
+            android:translationX="5dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yellow_box"
+        android:layout_width="321dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/match_box_yellow"
+        android:gravity="top"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:translationX="-35dp"
+        android:translationY="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:translationX="5dp"
+            android:background="@drawable/ic_no_food_icon"
+            android:contentDescription="@string/no_food_icon"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="321dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:alpha="0.80"
+        android:background="@drawable/match_box_main"
+        android:orientation="vertical"
+        android:translationY="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/teal_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/quot_what_do_you_want_for_dinner_quot"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#30D5C8"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            android:translationX="-5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-60dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="@string/let_us_help_browse_through_restaurants_near_you_and_your_partner_until_your_cravings_unite"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFF"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-275dp"
+            android:background="@drawable/ic_yes_food_icon"
+            android:contentDescription="@string/yes_food_icon"
+            android:translationX="-5dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

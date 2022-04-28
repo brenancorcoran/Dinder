@@ -17,4 +17,8 @@
     <string name="pacos_tacos">Paco\'s Tacos</string>
     <string name="north_loop_chicago">(North Loop, Chicago)</string>
     <string name="tacos_desc">Unique dining experience by combining authentic Mexican food, as well as fusion items inspired from various cultures in the Southern...read more</string>
+    <string name="quot_what_do_you_want_for_dinner_quot">\"What do you want for dinner?\"</string>
+    <string name="let_us_help_browse_through_restaurants_near_you_and_your_partner_until_your_cravings_unite">Let us help! Browse through restaurants near you and your partner, until your cravings unite!</string>
+    <string name="no_food_icon">no food icon</string>
+    <string name="yes_food">yes food icon</string>
 </resources>
