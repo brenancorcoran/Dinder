@@ -19,7 +19,6 @@
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.411231884057971" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.411231884057971" />
         <entry key="app/src/main/res/layout/screen_home.xml" value="0.5135869565217391" />
-
       </map>
     </option>
   </component>
@@ -28,5 +27,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
   </component>
 </project>
