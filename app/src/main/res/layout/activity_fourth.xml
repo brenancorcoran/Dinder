@@ -36,12 +36,13 @@
         </ImageView>
 
         <ImageView
-            android:id="@+id/ginos_rest"
+            android:id="@+id/italian_rest"
             android:layout_width="270dp"
             android:layout_height="150dp"
             android:cropToPadding="true"
+            android:scaleType="fitXY"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/ginos" />
+            app:srcCompat="@drawable/italian" />
 
         <TextView
             android:id="@+id/ginos_title"
@@ -51,30 +52,30 @@
             android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
             android:textColor="#000"
-            android:text="@string/ginos_italian_restaurant"
+            android:text="@string/italian_restaurant"
             android:textSize="20dp"
             />
 
         <TextView
-            android:id="@+id/ginos_loc"
+            android:id="@+id/italian_loc"
             android:fontFamily="@font/roboto_medium"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:textColor="#000"
-            android:text="@string/lincoln_park_chicago"
+            android:text="@string/old_town"
             android:textSize="14dp"
             />
 
         <TextView
-            android:id="@+id/ginos_desc"
+            android:id="@+id/italian_desc"
             android:fontFamily="@font/roboto_regular"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
             android:textColor="#000"
-            android:text="@string/ginos_desc_text"
+            android:text="@string/italian_desc"
             android:textSize="14dp"
             />
 
