@@ -14,9 +14,11 @@
         <entry key="app/src/main/res/layout/activity_fifth.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_fourth.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_gino.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_italian.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11952056884765622" />
         <entry key="app/src/main/res/layout/activity_pizza.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_shuffle.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_tacos.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_third.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.411231884057971" />
