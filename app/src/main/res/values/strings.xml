@@ -22,4 +22,5 @@
     <string name="no_food_icon">no food icon</string>
     <string name="yes_food">yes food icon</string>
     <string name="pic_desc_italian">Gussies picture</string>
+    <string name="shuffle_restaurants">Shuffle Restaurants!</string>
 </resources>
