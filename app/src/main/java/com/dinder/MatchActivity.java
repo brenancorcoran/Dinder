@@ -16,7 +16,7 @@ public class MatchActivity extends AppCompatActivity {
     }
 
     public void findResClick(View view) {
-        goToUrl ( "http://pizzahut.com/");
+        goToUrl ( "http://gussiesitalian.com/");
     }
 
     private void goToUrl (String url) {
