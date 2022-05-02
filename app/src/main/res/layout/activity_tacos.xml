@@ -51,7 +51,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/roboto_black"
-            android:text="@string/pacos_tacos"
+            android:text="@string/tacos_rest"
             android:textColor="#000"
             android:textSize="20dp" />
 
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:fontFamily="@font/roboto_medium"
-            android:text="@string/north_loop_chicago"
+            android:text="@string/lincoln_park"
             android:textColor="#000"
             android:textSize="14dp" />
 

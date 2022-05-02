@@ -8,13 +8,17 @@
     <string name="what_should_we_do_tonight">What should we do tonight?</string>
     <string name="let_us_help_you_decide_invite_a_partner_or_friend_to_start_swiping_and_come_to_a_decision_in_no_time">Let us help you decide! Invite a partner or friend to start swiping and come to a decision in no time!</string>
     <string name="todo">TODO</string>
-    <string name="ginos_italian_restaurant">Gino\'s Italian Restaurant</string>
+    <string name="italian_restaurant">Gussie\'s Italian Restaurant</string>
     <string name="yes_food_icon">yes food icon</string>
-    <string name="lincoln_park_chicago">(Lincoln Park, Chicago)</string>
-    <string name="ginos_desc_text">Dining-in reservations accepted by calling the restaurant, as well as walk-ins welcome. As usual you can call in for takeout or delivery...read more</string>
+    <string name="old_town">(Old Town, Chicago)</string>
+    <string name="italian_desc">Gussie\'s is a project of passion serving friends and family. Inspired by grandmother Augusta \'Gussie\' and the times in the kitchen with grandma, helping her throw dinner parties for friends and family was always the best time.</string>
     <string name="like">LIKE</string>
     <string name="dislike">DISLIKE</string>
-    <string name="pacos_tacos">Paco\'s Tacos</string>
-    <string name="north_loop_chicago">(North Loop, Chicago)</string>
-    <string name="tacos_desc">Unique dining experience by combining authentic Mexican food, as well as fusion items inspired from various cultures in the Southern...read more</string>
+    <string name="tacos_rest">Broken English Taco Pub</string>
+    <string name="lincoln_park">(Lincoln Park, Chicago)</string>
+    <string name="tacos_desc">Located in three of Chicago\'s most vibrant neighborhoods. Broken English combines a unique take on Mexican street style tacos, refreshing beverages, eclectic music, and vivid artwork created by local talent.</string>
+    <string name="quot_what_do_you_want_for_dinner_quot">\"What do you want for dinner?\"</string>
+    <string name="let_us_help_browse_through_restaurants_near_you_and_your_partner_until_your_cravings_unite">Let us help! Browse through restaurants near you and your partner, until your cravings unite!</string>
+    <string name="no_food_icon">no food icon</string>
+    <string name="yes_food">yes food icon</string>
 </resources>
