@@ -15,7 +15,7 @@ public class GinoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gino);
+        setContentView(R.layout.activity_italian);
     }
 
     public void findDislikeClick(View view) {
