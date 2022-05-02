@@ -10,16 +10,14 @@
         <entry key="app/src/main/res/drawable/match_box_main.xml" value="0.266" />
         <entry key="app/src/main/res/drawable/match_box_teal.xml" value="0.405" />
         <entry key="app/src/main/res/drawable/match_box_yellow.xml" value="0.405" />
-        <entry key="app/src/main/res/drawable/myrect.xml" value="0.1925" />
         <entry key="app/src/main/res/layout/activity_fifth.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_fourth.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_gino.xml" value="0.1671195652173913" />
-        <entry key="app/src/main/res/layout/activity_italian.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_fourth.xml" value="0.391304347826087" />
+        <entry key="app/src/main/res/layout/activity_italian.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11952056884765622" />
-        <entry key="app/src/main/res/layout/activity_pizza.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_match.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_shuffle.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_tacos.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sushi.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/activity_tacos.xml" value="0.546875" />
         <entry key="app/src/main/res/layout/activity_third.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.411231884057971" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.411231884057971" />
@@ -32,12 +30,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.335" />
-      </ProjectState>
-    </option>
   </component>
 </project>
