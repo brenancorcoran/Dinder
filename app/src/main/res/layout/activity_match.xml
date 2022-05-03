@@ -34,7 +34,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="311dp"
+        android:layout_width="350dp"
         android:layout_height="466dp"
         android:layout_marginTop="150dp"
         android:background="@drawable/match_box_teal"
@@ -52,13 +52,13 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:background="@drawable/ic_no_food_icon"
-            android:contentDescription="no food icon"
+            android:contentDescription="@string/no_food_icon_match"
             app:layout_constraintTop_toTopOf="parent">
 
         </ImageView>
 
         <LinearLayout
-            android:layout_width="311dp"
+            android:layout_width="350dp"
             android:layout_height="425dp"
             android:background="@drawable/match_box_yellow"
             android:gravity="top"
@@ -71,13 +71,13 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/ic_no_food_icon"
-                android:contentDescription="no food icon"
+                android:contentDescription="@string/no_food_icon_match2"
                 app:layout_constraintTop_toTopOf="parent">
 
             </ImageView>
 
             <LinearLayout
-                android:layout_width="311dp"
+                android:layout_width="350dp"
                 android:layout_height="385dp"
                 android:background="@drawable/match_box_main"
                 android:gravity="top"
@@ -90,7 +90,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/ic_yes_food_icon"
-                    android:contentDescription="yes food icon"
+                    android:contentDescription="@string/yes_food_icon_match"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:layout_editor_absoluteX="195dp"
                     tools:layout_editor_absoluteY="208dp">
@@ -103,13 +103,13 @@
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/roboto_regular"
                     android:gravity="center"
-                    android:text="You got a match!"
+                    android:text="@string/you_got_a_match"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="#30D5C8"
                     android:textSize="34sp"
                     android:textStyle="bold|italic"
-                    android:translationX="25dp">
+                    android:translationX="35dp">
 
                 </TextView>
 
@@ -119,7 +119,7 @@
                     android:layout_marginTop="80dp"
                     android:fontFamily="@font/roboto_regular"
                     android:gravity="center"
-                    android:text="Click the button below to see where your night will go!"
+                    android:text="@string/click_the_button_below_to_see_where_your_night_will_go"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="#FFF"
@@ -132,18 +132,18 @@
                     android:id="@+id/foodButton3"
                     android:layout_width="284dp"
                     android:layout_height="48dp"
-                    android:background="@drawable/custom_button"
                     android:layout_marginTop="-10dp"
+                    android:background="@drawable/custom_button"
                     android:fontFamily="@font/roboto_regular"
+                    android:gravity="center"
                     android:onClick="findResClick"
-                    android:text="Reveal My Meal!"
+                    android:text="@string/reveal_my_meal"
                     android:textAllCaps="false"
                     android:textColor="#41466F"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:translationX="15dp"
+                    android:translationX="30dp"
                     android:translationY="100dp" />
-
             </LinearLayout>
 
         </LinearLayout>

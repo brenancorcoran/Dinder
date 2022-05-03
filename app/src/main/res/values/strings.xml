@@ -31,4 +31,10 @@
     <string name="salad_title">Sweetgreen</string>
     <string name="river_south">(River South, Chicago)</string>
     <string name="salad_desc">Fresh salads, plates + grain bowls available for pickup and delivery every day, made in-house from scratch, using whole produce delivered that morning</string>
+    <string name="click_the_button_below_to_see_where_your_night_will_go">Click the button below to see where your night will go!</string>
+    <string name="reveal_my_meal">Reveal My Meal!</string>
+    <string name="no_food_icon_match">no food icon_match</string>
+    <string name="no_food_icon_match2">no food icon_match2</string>
+    <string name="yes_food_icon_match">yes food icon</string>
+    <string name="you_got_a_match">You got a match!</string>
 </resources>
