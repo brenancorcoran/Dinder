@@ -6,38 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.PizzaActivity">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="129dp"
-        android:layout_height="73dp"
-        android:background="@drawable/custom_button"
-        android:onClick="findDislikeClick"
-        android:text="DISLIKE"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.311"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.92" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="135dp"
-        android:layout_height="70dp"
-        android:background="@drawable/custom_button"
-        android:onClick="findLikeClick"
-        android:text="LIKE"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.92" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
@@ -62,5 +30,112 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="425dp"
+        android:background="@drawable/match_box_main"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:translationY="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.095">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/ic_yes_food_icon"
+            android:contentDescription="@string/yes_food_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="195dp"
+            tools:layout_editor_absoluteY="208dp">
+
+        </ImageView>
+
+        <ImageView
+            android:contentDescription="pic_desc_pizza"
+            android:id="@+id/pizza_rest"
+            android:layout_width="300dp"
+            android:layout_height="175dp"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/pizza" />
+
+        <TextView
+            android:id="@+id/pizza_title"
+            android:fontFamily="@font/roboto_black"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#FFF"
+            android:text="@string/pizza_title"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/pizza_loc"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="#FFF"
+            android:text="@string/pizza_loc"
+            android:textSize="14dp"
+            />
+
+        <TextView
+            android:id="@+id/pizza_desc"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#FFF"
+            android:text="@string/pizza_desc"
+            android:textSize="14dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:onClick="findLikeClick"
+        android:text="@string/like"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:onClick="findDislikeClick"
+        android:text="@string/dislike"
+        android:textColor="#00796B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.911" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,6 +23,6 @@ public class PizzaActivity extends AppCompatActivity {
     }
 
     public void findDislikeClick(View view) {
-        startActivity(new Intent(this, ShuffleActivity.class));
+        startActivity(new Intent(this, SushiActivity.class));
     }
 }

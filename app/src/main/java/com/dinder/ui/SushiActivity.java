@@ -22,6 +22,6 @@ public class SushiActivity extends AppCompatActivity {
         public void findLikeClick (View view){ startActivity(new Intent(this, MatchActivity.class)); }
 
         public void findDislikeClick (View view){
-            startActivity(new Intent(this, ShuffleActivity.class));
+            startActivity(new Intent(this, TacosActivity.class));
     }
 }
