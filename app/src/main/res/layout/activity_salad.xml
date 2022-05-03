@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.PizzaActivity">
+    tools:context=".ui.SaladActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -35,7 +35,7 @@
         android:id="@+id/linearLayout2"
         android:layout_width="350dp"
         android:layout_height="425dp"
-        android:background="@drawable/match_box_main"
+        android:background="@drawable/match_box_teal"
         android:gravity="top"
         android:orientation="vertical"
         android:translationY="10dp"
@@ -61,47 +61,47 @@
         </ImageView>
 
         <ImageView
-            android:contentDescription="pic_desc_pizza"
-            android:id="@+id/pizza_rest"
+            android:contentDescription="pic_desc_salad"
+            android:id="@+id/salad_rest"
             android:layout_width="300dp"
             android:layout_height="175dp"
             android:cropToPadding="true"
             android:scaleType="fitXY"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@drawable/pizza" />
+            app:srcCompat="@drawable/salad" />
 
         <TextView
-            android:id="@+id/pizza_title"
+            android:id="@+id/salad_title"
             android:fontFamily="@font/roboto_black"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
-            android:textColor="#FFF"
-            android:text="@string/pizza_title"
+            android:textColor="#000"
+            android:text="@string/salad_title"
             android:textSize="20dp"
             />
 
         <TextView
-            android:id="@+id/pizza_loc"
+            android:id="@+id/salad_loc"
             android:fontFamily="@font/roboto_medium"
             android:layout_width="275dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:textColor="#FFF"
-            android:text="@string/pizza_loc"
+            android:textColor="#000"
+            android:text="@string/river_south"
             android:textSize="14dp"
             />
 
         <TextView
-            android:id="@+id/pizza_desc"
+            android:id="@+id/salad_desc"
             android:fontFamily="@font/roboto_regular"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
-            android:textColor="#FFF"
-            android:text="@string/pizza_desc"
+            android:textColor="#000"
+            android:text="@string/salad_desc"
             android:textSize="14dp"
             />
 

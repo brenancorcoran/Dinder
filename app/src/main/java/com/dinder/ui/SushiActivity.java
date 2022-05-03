@@ -10,19 +10,18 @@ import com.dinder.MatchActivity;
 import com.dinder.R;
 import com.dinder.ShuffleActivity;
 
-public class PizzaActivity extends AppCompatActivity {
+public class SushiActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pizza);
+        setContentView(R.layout.activity_sushi);
+
     }
 
-    public void findLikeClick(View view) {
-        startActivity(new Intent(this, MatchActivity.class));
-    }
+        public void findLikeClick (View view){ startActivity(new Intent(this, MatchActivity.class)); }
 
-    public void findDislikeClick(View view) {
-        startActivity(new Intent(this, SushiActivity.class));
+        public void findDislikeClick (View view){
+            startActivity(new Intent(this, TacosActivity.class));
     }
 }

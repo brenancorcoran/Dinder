@@ -22,10 +22,13 @@
     <string name="no_food_icon">no food icon</string>
     <string name="yes_food">yes food icon</string>
     <string name="pic_desc_italian">Gussies picture</string>
-    <string name="click_the_button_below_to_see_where_your_night_will_go">Click the button below to see where your night will go!</string>
-    <string name="reveal_my_meal">Reveal My Meal!</string>
-    <string name="no_food_icon_match">no food icon_match</string>
-    <string name="no_food_icon_match2">no food icon_match2</string>
-    <string name="yes_food_icon_match">yes food icon</string>
-    <string name="you_got_a_match">You got a match!</string>
+    <string name="shuffle_restaurants">Shuffle Restaurants!</string>
+    <string name="pizza_title">Lou Malnati\'s Pizzeria</string>
+    <string name="pizza_loc">(South Loop, Chicago)</string>
+    <string name="pizza_desc">Chicago-style deep dish pizza is the heartiest of the pizza varieties and typically eaten with a knife and fork. The dough is patted out by hand and raised up high on the sides of a seasoned deep dish pizza pan.</string>
+    <string name="sushi_title">Blue Sushi Sake Grill</string>
+    <string name="sushi_desc">Order a spread of all your maki, nigiri and sashimi favs from the sushi bar, and throw in a few orders of starters from the grill. We\'ll stagger your plates so you can savor it all bite-by-bite, and maximize the sushi experience you\'ve been craving all week.</string>
+    <string name="salad_title">Sweetgreen</string>
+    <string name="river_south">(River South, Chicago)</string>
+    <string name="salad_desc">Fresh salads, plates + grain bowls available for pickup and delivery every day, made in-house from scratch, using whole produce delivered that morning</string>
 </resources>

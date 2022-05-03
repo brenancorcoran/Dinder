@@ -19,9 +19,10 @@ public class ShuffleActivity extends AppCompatActivity {
 
     public void findFoodClick(View view) {
 
-        String views[] = {
-                "TacosActivity",
+        String[] views = {
+                "SaladActivity",
                 "PizzaActivity",
+                "SushiActivity",
         };
 
         int randomInt = new Random().nextInt(views.length);

@@ -22,6 +22,6 @@ public class TacosActivity extends AppCompatActivity {
     }
 
     public void findDislikeClick(View view) {
-        startActivity(new Intent(this, GinoActivity.class));
+        startActivity(new Intent(this, ItalianActivity.class));
     }
 }
