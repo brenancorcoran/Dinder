@@ -28,4 +28,7 @@
     <string name="pizza_desc">Chicago-style deep dish pizza is the heartiest of the pizza varieties and typically eaten with a knife and fork. The dough is patted out by hand and raised up high on the sides of a seasoned deep dish pizza pan.</string>
     <string name="sushi_title">Blue Sushi Sake Grill</string>
     <string name="sushi_desc">Order a spread of all your maki, nigiri and sashimi favs from the sushi bar, and throw in a few orders of starters from the grill. We\'ll stagger your plates so you can savor it all bite-by-bite, and maximize the sushi experience you\'ve been craving all week.</string>
+    <string name="salad_title">Sweetgreen</string>
+    <string name="river_south">(River South, Chicago)</string>
+    <string name="salad_desc">Fresh salads, plates + grain bowls available for pickup and delivery every day, made in-house from scratch, using whole produce delivered that morning</string>
 </resources>
