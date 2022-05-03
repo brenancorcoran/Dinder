@@ -22,4 +22,10 @@
     <string name="no_food_icon">no food icon</string>
     <string name="yes_food">yes food icon</string>
     <string name="pic_desc_italian">Gussies picture</string>
+    <string name="click_the_button_below_to_see_where_your_night_will_go">Click the button below to see where your night will go!</string>
+    <string name="reveal_my_meal">Reveal My Meal!</string>
+    <string name="no_food_icon_match">no food icon_match</string>
+    <string name="no_food_icon_match2">no food icon_match2</string>
+    <string name="yes_food_icon_match">yes food icon</string>
+    <string name="you_got_a_match">You got a match!</string>
 </resources>
