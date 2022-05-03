@@ -20,7 +20,7 @@ public class ShuffleActivity extends AppCompatActivity {
     public void findFoodClick(View view) {
 
         String[] views = {
-                "TacosActivity",
+                "SaladActivity",
                 "PizzaActivity",
                 "SushiActivity",
         };
