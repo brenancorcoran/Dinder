@@ -37,4 +37,9 @@
     <string name="no_food_icon_match2">no food icon_match2</string>
     <string name="yes_food_icon_match">yes food icon</string>
     <string name="you_got_a_match">You got a match!</string>
+    <string name="lets_eat">Let\'s Eat!</string>
+    <string name="pic_desc_pizza">pic_desc_pizza</string>
+    <string name="pic_desc_salad">pic_desc_salad</string>
+    <string name="pic_desc_sushi">pic_desc_sushi</string>
+    <string name="pic_desc_tacos">pic_desc_tacos</string>
 </resources>

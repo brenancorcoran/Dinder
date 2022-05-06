@@ -30,12 +30,11 @@ public class ShuffleActivity extends AppCompatActivity {
         String randomActivity = views[randomInt];
 
         try {
-            Class klazz = Class.forName("com.dinder.ui." + randomActivity);
+            Class<?> klazz = Class.forName("com.dinder.ui." + randomActivity);
             startActivity(new Intent(this, klazz));
         } catch (ClassNotFoundException e)  {
             e.printStackTrace();
         }
     }
 }
-
 

@@ -61,7 +61,7 @@
         </ImageView>
 
         <ImageView
-            android:contentDescription="pic_desc_sushi"
+            android:contentDescription="@string/pic_desc_sushi"
             android:id="@+id/pizza_rest"
             android:layout_width="300dp"
             android:layout_height="175dp"
@@ -79,7 +79,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/sushi_title"
-            android:textSize="20dp"
+            android:textSize="20sp"
             />
 
         <TextView
@@ -90,7 +90,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/lincoln_park"
-            android:textSize="14dp"
+            android:textSize="14sp"
             />
 
         <TextView
@@ -102,7 +102,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/sushi_desc"
-            android:textSize="14dp"
+            android:textSize="14sp"
             />
 
 
@@ -121,7 +121,8 @@
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/button2"
@@ -136,7 +137,8 @@
         app:layout_constraintHorizontal_bias="0.386"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="UsingOnClickInXml" />
 
 
 
