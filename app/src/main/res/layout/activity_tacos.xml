@@ -42,7 +42,7 @@
             android:layout_gravity="center_horizontal"
             android:cropToPadding="true"
             app:srcCompat="@drawable/tacos"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/pic_desc_tacos" />
 
         <TextView
             android:id="@+id/tacos_title"
@@ -53,7 +53,7 @@
             android:fontFamily="@font/roboto_black"
             android:text="@string/tacos_rest"
             android:textColor="#000"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tacos_loc"
@@ -63,7 +63,7 @@
             android:fontFamily="@font/roboto_medium"
             android:text="@string/lincoln_park"
             android:textColor="#000"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/tacos_desc"
@@ -74,7 +74,7 @@
             android:fontFamily="@font/roboto_regular"
             android:text="@string/tacos_desc"
             android:textColor="#000"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
 
     </LinearLayout>
@@ -117,7 +117,8 @@
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintVertical_bias="0.937"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/button2"
@@ -132,5 +133,6 @@
         app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintVertical_bias="0.937"
+        tools:ignore="UsingOnClickInXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.FourthActivity">
+    tools:context=".ui.ItalianActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -54,7 +54,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/italian_restaurant"
-            android:textSize="20dp"
+            android:textSize="20sp"
             />
 
         <TextView
@@ -65,7 +65,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/old_town"
-            android:textSize="14dp"
+            android:textSize="14sp"
             />
 
         <TextView
@@ -77,7 +77,7 @@
             android:layout_marginStart="20dp"
             android:textColor="#000"
             android:text="@string/italian_desc"
-            android:textSize="14dp"
+            android:textSize="14sp"
             />
 
 
@@ -121,7 +121,8 @@
         app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/button2"
@@ -136,5 +137,6 @@
         app:layout_constraintHorizontal_bias="0.386"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="UsingOnClickInXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>

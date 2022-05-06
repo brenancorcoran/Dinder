@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/box.xml" value="0.405" />
         <entry key="app/src/main/res/drawable/custom_button.xml" value="0.1555" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1185" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/ic_no_food_icon.xml" value="0.405" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1185" />
         <entry key="app/src/main/res/drawable/ic_yes_food_icon.xml" value="0.405" />
         <entry key="app/src/main/res/drawable/match_box_main.xml" value="0.266" />
         <entry key="app/src/main/res/drawable/match_box_teal.xml" value="0.405" />
@@ -20,13 +25,14 @@
         <entry key="app/src/main/res/layout/activity_pizza.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_salad.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_shuffle.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_shuffle.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sushi.xml" value="0.23958333333333334" />
         <entry key="app/src/main/res/layout/activity_tacos.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_third.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.411231884057971" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.411231884057971" />
         <entry key="app/src/main/res/layout/screen_home.xml" value="0.5135869565217391" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.10729166666666666" />
       </map>
     </option>
   </component>

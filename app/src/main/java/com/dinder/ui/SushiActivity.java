@@ -1,14 +1,13 @@
 package com.dinder.ui;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.dinder.MatchActivity;
 import com.dinder.R;
-import com.dinder.ShuffleActivity;
 
 public class SushiActivity extends AppCompatActivity {
 
